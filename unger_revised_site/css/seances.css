@@ -1,0 +1,250 @@
+<!doctype css>
+<css>
+<title>guide to seances</title>
+<head>
+    
+
+<style>
+
+    body {
+    background-image: url("../img/carpet_pic.jpg");
+    background-repeat: repeat;
+    z-index: -1;
+}
+
+.return{
+    position: absolute;
+    top: 50px;
+    left: -10px;
+}
+    
+    /* text rules */
+        .h1{
+        font-family: "georgia", serif;
+        font-weight: lighter;
+        font-style: italic;
+        font-size: 12px;
+        color: white;
+        position: absolute;
+        top: 104px;
+        left: 490px;
+        letter-spacing: 3px;
+        line-height: 22px;
+        opacity: 0.2;
+        padding-right: 200px;
+        width: 500px;
+}
+    
+    .p1{
+        font-family: "georgia", serif;
+        font-weight: bold;
+        color: white;
+        font-size: 350px;
+        position: absolute;
+        left: 260px;
+        top: 120px;
+        opacity: 0.2;
+}
+    .p2{
+      font-family: "georgia", serif;
+        font-weight: bold;
+        color: white;
+        font-size: 100px;
+        position: absolute;
+        left: 730px;
+        top: 520px;
+        opacity: 0.2;
+        z-index: 2;
+}
+    .p3{
+      font-family: "georgia", serif;
+        font-weight: bold;
+        color: white;
+        font-size: 200px;
+        position: absolute;
+        left: 600px;
+        top: 880px;
+        opacity: 0.2;
+        z-index: 2;
+}
+    .p4{
+        font-family: "georgia", serif;
+        font-weight: bold;
+        color: white;
+        font-size: 100px;
+        position: absolute;
+        left: 780px;
+        top: 1730px;
+        opacity: 0.2;
+        z-index: 2;
+    }
+        .h2{
+        font-family: "georgia", serif;
+        font-weight: bold;
+        font-size: 50px;
+        color: white;
+        position: absolute;
+        top: 400px;
+        left: 500px;
+        letter-spacing: 3px;
+        opacity: 0.2; 
+}
+        .h3{
+        font-family: "georgia", serif;
+        font-weight: lighter;
+        font-size: 16px;
+        color: white;
+        text-align: right;
+        position: absolute;
+        top: 498px;
+        left: 30px;
+        right: 55px;
+        letter-spacing: 3px;
+        line-height: 25px;
+        opacity: 0.2;
+        padding-right: 700px;
+        width: 430px;
+}
+        .h4{
+        font-family: "georgia", serif;
+        font-weight: lighter;
+        font-size: 20px;
+        color: white;
+        position: absolute;
+        top: 535px;
+        left: 880px;
+        letter-spacing: 3px;
+        line-height: 25px;
+        opacity: 0.2; 
+        padding-right: 20px;
+        width: 350px;
+}
+        .h5{
+        font-family: "georgia", serif;
+        font-weight: lighter;
+        font-style: italic;
+        font-size: 12px;
+        color: white;
+        position: absolute;
+        top: 878px;
+        right: 975px;
+        left: 10px;
+        letter-spacing: 3px;
+        line-height: 22px;
+        opacity: 0.2;
+        text-align: right;
+        width: 250px;
+}
+    
+        .h6{
+        font-family: "georgia", serif;
+        font-weight: lighter;
+        font-size: 20px;
+        color: white;
+        position: absolute;
+        top: 1005px;
+        left: 755px;
+        letter-spacing: 3px;
+        line-height: 25px;
+        opacity: 0.2; 
+        padding-right: 20px;
+        width: 400px;
+}
+        .h7{
+        font-family: "georgia", serif;
+        font-weight: lighter;
+        font-size: 20px;
+        color: white;
+        position: absolute;
+        top: 1426px;
+        left: 35px;
+        letter-spacing: 3px;
+        line-height: 25px;
+        opacity: 0.2; 
+        padding-right: 520px;
+        text-align: right;
+        width: 650px;
+}
+        .h8{
+        font-family: "georgia", serif;
+        font-weight: bold;
+        color: white;
+        font-size: 50px;
+        position: absolute;
+        left: 270px;
+        top: 50px;
+        opacity: 0.2;
+}
+
+    /* end text rules */
+    
+    /* image rules */
+    
+    .seances{
+        position: absolute;
+        left: 100px;
+        top: 100px;
+}
+    
+    .seances_tree{
+        position: absolute;
+        left: 450px;
+        top: 380px;
+}
+    .group{
+        position: absolute;
+        left: 250px;
+        top: 880px;
+}
+    .group_panic{
+        position: absolute;
+        top: 1400px;
+        left: 700px;
+        
+    }
+    
+    /* various rotate and opcaity rules to be applied where needed */
+    
+        .rotate{
+        -webkit-transform: rotate(90deg);
+        font-family: "georgia", serif;
+        font-weight: bold;
+        font-size: 50px;
+        color: white;
+        position: absolute;
+        top: 45px;
+        left: 99px;
+        letter-spacing: 3px;
+        opacity: 0.2; 
+}
+        .rotate180{
+        -webkit-transform: rotate(180deg);
+        font-family: "georgia", serif;
+        font-weight: lighter;
+        font-size: 50px;
+        color: white;
+        position: absolute;
+        top: 45px;
+        left: 99px;
+        letter-spacing: 3px;
+        opacity: 0.2; 
+}
+    
+    .opacity{
+        opacity: 0.0;
+}
+    .opacity2{
+        opacity: 0.6;
+}
+    
+    .shift{
+        position: absolute;
+        top: -10px;
+}
+    
+ 
+</style>
+</head>
+    
+
+</css>

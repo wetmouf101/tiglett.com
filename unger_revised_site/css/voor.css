@@ -1,0 +1,117 @@
+<!doctype css>
+<css>
+<title>Talk to voor</title>
+<head>
+    
+<style>
+
+    body {
+    background-image: url("../img/carpet_pic.jpg");
+    z-index: -1;
+}
+    
+    .voor{
+    position: absolute;
+    left: 10px;
+    top: 70px;
+    z-index: 0;
+}
+        .login2{
+        position: absolute;
+        top: 480px;
+        left: 800px;
+        color: white;
+        font-family: "alice", serif;
+    }
+
+.return{
+    position: absolute;
+    top: 50px;
+    left: 10px;
+}
+    
+    /* voor rules */
+        .h1{
+        font-family: "georgia", serif;
+        font-weight: lighter;
+        font-size: 15px;
+        color: white;
+        position: absolute;
+        top: 200px;
+        left: 500px;
+        letter-spacing: 3px;
+        line-height: 25px;
+        opacity: 0.2;
+        padding-right: 200px;
+}
+        .h2{
+        font-family: "georgia", serif;
+        font-weight: bold;
+        font-size: 50px;
+        color: white;
+        position: absolute;
+        top: 400px;
+        left: 500px;
+        letter-spacing: 3px;
+        opacity: 0.2; 
+}
+        .form{
+        -webkit-transform: rotate(180deg);
+        font-family: "georgia", serif;
+        font-weight: bold;
+        font-size: 50px;
+        color: white;
+        position: absolute;
+        top: 200px;
+        left: 500px;
+        letter-spacing: 3px;
+        opacity: 0.2; 
+}
+        .voor_scrap{
+        position: absolute;
+        left: 300px;
+        top: 50px; 
+        
+    }
+    
+    /* end voor rules */
+            .h3{
+        font-family: "georgia", serif;
+        font-weight: bold;
+        color: white;
+        font-size: 50px;
+        position: absolute;
+        left: 500px;
+        top: 50px;
+        opacity: 0.2;
+}
+
+    
+    /* various rotate and opcaity rules to be applied where needed */
+    
+    .opacity{
+        opacity: 0.0;
+}
+    .opacity2{
+        opacity: 0.6;
+}
+    
+    .shift{
+        position: absolute;
+        top: -10px;
+}
+    
+    form {
+    position: absolute;
+    left: 500px;
+    top: 510px;
+    display: block;
+    margin-top: 0em;
+    z-index: 10;
+}
+    
+ 
+</style>
+</head>
+
+</css>

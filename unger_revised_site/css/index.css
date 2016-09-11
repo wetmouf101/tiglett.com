@@ -1,0 +1,279 @@
+<!doctype css>
+<css>
+<title>Decontextualize</title>
+<head>
+    
+    
+<style type="text/css">
+/* much of the language and images used on this site are not my own, I don't claim any of it */
+    
+ body {
+    background-image: url("img/wood.jpg");
+    z-index: -1;
+}
+
+.drag{
+position:relative;
+cursor:hand;
+z-index: 100;
+}
+    /* text rules */
+        .h1{
+        font-family: "georgia", serif;
+        font-weight: lighter;
+        font-size: 20px;
+        color: white;
+        position: absolute;
+        top: 154px;
+        left: 190px;
+        letter-spacing: 3px;
+        line-height: 22px;
+        opacity: 0.2;
+        padding-right: 200px;
+}
+/* end text rules */
+    
+    .login{
+        position: absolute;
+        top: 2510px;
+        left: 400px;
+        color: white;
+        font-family: "georgia", serif;
+    }
+    .login2{
+        position: absolute;
+        top: 2490px;
+        left: 520px;
+        color: white;
+        font-family: "georgia", serif;
+    }
+/* the following will be a plethora of rules that controls the placement of the scraps of paper */
+    
+    .scrap-1{
+    position: absolute;
+    top: 300px;
+    left: 700px;
+    }
+        .scrap-2{
+    position: absolute;
+    top: 330px;
+    left: 600px;
+    }
+        .scrap-3{
+    position: absolute;
+    top: 400px;
+    left: 500px;
+    }
+        .scrap-4{
+    position: absolute;
+    top: 400px;
+    left: -100px;
+    }
+        .scrap-5{
+    position: absolute;
+    top: 440px;
+    left: -40px;
+    }
+        .scrap-6{
+    position: absolute;
+    top: 500px;
+    left: 200px;
+    }
+        .scrap-7{
+    position: absolute;
+    top: 600px;
+    left: 100px;
+    }
+        .scrap-8{
+    position: absolute;
+    top: 700px;
+    left: 140px;
+    }
+        .scrap-9{
+    position: absolute;
+    top: 770px;
+    left: 140px;
+    }
+        .scrap-10{
+    position: absolute;
+    top: 880px;
+    left: 400px;
+    }
+        .scrap-11{
+    position: absolute;
+    top: 950px;
+    left: 390px;
+    }
+        .scrap-12{
+    position: absolute;
+    top: 1050px;
+    left: 220px;
+    }
+        .scrap-13{
+    position: absolute;
+    top: 1120px;
+    left: -100px;
+    }
+    
+        .scrap-14{
+    position: absolute;
+    top: 1200px;
+    left: -120px;
+    }
+        .scrap-15{
+    position: absolute;
+    top: 1400px;
+    left: 100px;
+    }
+        .scrap-16{
+    position: absolute;
+    top: 1600px;
+    left: 400px;
+    }
+        .scrap-17{
+    position: absolute;
+    top: 1620px;
+    left: 400px;
+    }
+        .scrap-18{
+    position: absolute;
+    top: 1640px;
+    left: 400px;
+    }
+        .scrap-19{
+    position: absolute;
+    top: 1660px;
+    left: 390px;
+    }
+        .scrap-20{
+    position: absolute;
+    top: 1680px;
+    left: 100px;
+    }
+        .scrap-21{
+    position: absolute;
+    top: 1700px;
+    left: 100px;
+    }
+        .scrap-22{
+    position: absolute;
+    top: 1720px;
+    left: 100px;
+    }
+        .scrap-23{
+    position: absolute;
+    top: 1800px;
+    left: -100px;
+    }
+        .scrap-24{
+    position: absolute;
+    top: 1850px;
+    left: 100px;
+    }
+        .scrap-25{
+    position: absolute;
+    top: 1900px;
+    left: 100px;
+    }
+        .scrap-26{
+    position: absolute;
+    top: 1900px;
+    left: 100px;
+    }
+     .scrap-27{
+    position: absolute;
+    top: 2000px;
+    left: -100px;
+        }
+     .scrap-28{
+    position: absolute;
+    top: 2080px;
+    left: -100px;
+        }
+     .scrap-29{
+    position: absolute;
+    top: 2100px;
+    left: 400px;
+        }
+     .scrap-30{
+    position: absolute;
+    top: 2100px;
+    left: 100px;
+        }
+     .scrap-31{
+    position: absolute;
+    top: 2180px;
+    left: 100px;
+        }
+     .scrap-32{
+    position: absolute;
+    top: 2200px;
+    left: 100px;
+        }
+     .scrap-33{
+    position: absolute;
+    top: 2250px;
+    left: 100px;
+        }
+     .scrap-34{
+    position: absolute;
+    top: 00px;
+    left: -200px;
+        }
+     .scrap-35{
+    position: absolute;
+    top: 2300px;
+    left: 100px;
+        }
+     .scrap-36{
+    position: absolute;
+    top: 80px;
+    left: -180px;
+        }
+     .scrap-37{
+    position: absolute;
+    top: 2350px;
+    left: 100px;
+        }
+     .scrap-38{
+    position: absolute;
+    top: 2400px;
+    left: 100px;
+        }
+     .scrap-39{
+    position: absolute;
+    top: 2400px;
+    left: 100px;
+        }
+     .scrap-40{
+    position: absolute;
+    top: 2500px;
+    left: 200px;
+        }
+     .scrap-41{
+    position: absolute;
+    top: 2466px;
+    left: 100px;
+        }
+     .scrap-42{
+    position: absolute;
+    top: 2320px;
+    left: 100px;
+        }
+     .scrap-43{
+    position: absolute;
+    top: 2350px;
+    left: 100px;
+        }
+     .scrap-44{
+    position: absolute;
+    top: 2600px;
+    left: 100px;
+        }
+    
+    /* end scrap rules */
+    
+
+</style>
+
+</css>

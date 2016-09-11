@@ -1,0 +1,211 @@
+<!doctype html>
+<html>
+<title>Level 5</title>
+<head>
+<style>
+    
+    .rectangle {
+    position: absolute;
+    left: 400px;
+    width: 5px;
+	height: 2000px;
+	background-color: firebrick;
+    z-index: 0;
+}
+    
+    marquee {
+    z-index: 0;
+}
+    
+    body{
+    background-image: url(level5.gif); 
+    margin-top: 0px;
+}
+    
+    a {
+    text-decoration: none;
+    color: black;
+}
+
+    a:hover {
+    font-weight: bold;
+    color: firebrick;
+}
+
+/* the following rules will govern the various placements of the navigation, in sequential order, until I say so */
+    .level1{
+    font-family: "Futura", sans-serif;
+    font-weight: 500;
+    font-size: 113px;
+    line-height: 70px;
+    position: absolute;
+    left: 3px;
+    top: -22px;
+    z-index: 15;
+} 
+    
+    .level2{
+    font-family: "Futura", sans-serif;
+    font-weight: 500;
+    font-size: 800px;
+    line-height: 70px;
+    position: absolute;
+    left: -88px;
+    top: -320px;
+    z-index: 6;
+    transform: rotate(180deg);
+}
+    
+    .level3{
+    font-family: "Futura", sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 70px;
+    position: absolute;
+    left: 280px;
+    top: 550px;
+    z-index: 7;
+    
+}
+    
+    .level4{
+    font-family: "Futura", sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 70px;
+    position: absolute;
+    left: 280px;
+    top: 900px;
+    z-index: 10;
+}
+    
+    .level5{
+    font-family: "Futura", sans-serif;
+    font-weight: 500;
+    font-size: 300px;
+    line-height: 70px;
+    position: absolute;
+    left: -422px;
+    top: 885px;
+    z-index: 8;
+}
+    
+/* end of rules for the moving nav */
+    
+/* marquee rule */
+    .marq{
+    font-family: "Futura", sans-serif;
+    opacity: 0.5
+    }
+        
+
+
+ /* governs title of level 5 */   
+    .rule2{
+    font-family: "Futura", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    position: absolute;
+    left: 400px;
+    top: -8px;
+}
+    
+    /* rules for text on right side of image */
+    
+    .rule6{
+    font-family: "Futura", sans-serif;
+    position: absolute;
+    left: 910px;
+    top: 63px;
+}
+    
+    .rule7{
+    font-family: "Futura", sans-serif;
+    position: absolute;
+    left: 560px;
+    top: 1275px;
+}
+
+/* rules for images in sequential order */
+    
+    .rule3{
+    position: absolute;
+    left: 400px;
+    top: 84px;
+    z-index: 10;
+}
+    
+    .rule4{
+    position: absolute;
+    top: 1110px;
+    left: 700px;
+}
+    
+    .rule5{
+    position: absolute;
+    top: 797px;
+    left: 400px;
+    z-index: 10;
+}
+
+/* rule for broken hover fun and the images behind the hover */
+    
+    .rule10:hover{
+    opacity: 0.5;
+}
+    
+    .rule11{
+    position: absolute;
+    left: 400px;
+    top: 84px;
+}
+    
+    .rule12{
+    position: absolute;
+    top: 797px;
+    left: 400px;
+}
+  
+/* this controls the escape and submit links */  
+    
+    .rule13{
+    font-family: "Futura", sans-serif;
+    font-size: 100px;
+    position: absolute;
+    top: 1794px;
+    left: 16px;
+}
+
+    
+</style>
+</head>
+    
+<body>
+    
+<div class="rectangle"></div>
+<div class="level1"><a href="index.html"><p>LEVEL 1</p></a></div>
+<div class="level2"><a href="Level2.html"><p>2</p></a></div>
+<div class="level3"><a href="level3.html"><p>LEVEL 3</p></a></div>
+<div class="level4"><a href="level4.html"><p>LEVEL 4</p></a></div>
+<div class="level5"><a href="level5.html"><p>LEVEL 5</p></a></div>
+<p class="rule2">THE <strong>TOTAL OUTCAST</strong></p>
+    
+<div class="rule10"><div class="rule3"><img src="nerd14.jpg", height="700px", width="500px"></div></div>
+    
+<div class="rule4"><img src="nerd13.jpg", height="310px", width="200px"></div>
+    
+<div class="rule10"><div class="rule5"><img src="nerd8.jpg", height="300px", width="400px"></div></div>
+    
+<div class="rule11"><img src="consume.jpg", height="700px", width="500px"></div>
+    
+<div class="rule12"><img src="obsess.jpg", height="300px", width="400px"></div>
+    
+<p class="rule6">The final stage of fandom, the lost soul of fiction. Anybody who reaches this level is lost to the world, their life a mess of lies and <strong>fabricated realities</strong>. They are <strong>no longer an individual</strong>, they are the physical manifestation of a <strong>fake world</strong><br /><br /><br /><br /><br /><br />"BRAAAAAAAH NARUTO BWOOOOOOO UTILITY BELT, I WISH I WOULDN'T HAVE FORGOTTEN MY FEDORA AT HOME, HWOOOOOO, JARED LETTO'S JOKER IS GOING TO BE THE NEXT EPIC ME-ME, MUCH BETTER THAN SHITTY HEATH LEDGERS"</p>
+    
+<div class="marq"><a href="https://www.thinkgeek.com/"><marquee direction="right", scrollamount="20",>SPEND MORE MONEY ON TOYS</marquee></a></div>
+    
+<p class="rule13"><a href="outside.html">ESCAPE</a> <a href="submit.html">SUBMIT</a></p>
+    
+</body>
+
+</html>

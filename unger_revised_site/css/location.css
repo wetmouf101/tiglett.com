@@ -1,0 +1,182 @@
+<!doctype css>
+<css>
+<title>find dogtown</title>
+<head>
+    
+<style>
+
+    body {
+    background-image: url("../img/carpet_pic.jpg");
+    background-repeat: repeat;
+    z-index: -1;
+}
+    p1:hover {
+    opacity: 1.0;
+    color: white;
+    
+}
+    p2:hover {
+    opacity: 1.0;
+    color: white;
+    
+}
+    p3:hover {
+    opacity: 1.0;
+    color: white;
+    
+}
+
+.return{
+    position: absolute;
+    top: 50px;
+    left: 10px;
+}
+    
+    /* text rules */
+        .h1{
+        font-family: "georgia", serif;
+        font-weight: bold;
+        font-size: 50px;
+        color: white;
+        position: absolute;
+        top: 28px;
+        left: 472px;
+        letter-spacing: 3px;
+        line-height: 22px;
+        opacity: 0.2;
+        padding-right: 200px;
+}
+
+        .h2{
+        font-family: "georgia", serif;
+        font-weight: lighter;
+        font-style: italic;
+        font-size: 12px;
+        color: white;
+        position: absolute;
+        top: 878px;
+        right: 975px;
+        left: 10px;
+        letter-spacing: 3px;
+        line-height: 22px;
+        opacity: 0.2;
+        text-align: right;
+}
+    
+        .h3{
+        font-family: "georgia", serif;
+        font-weight: lighter;
+        font-size: 20px;
+        color: white;
+        position: absolute;
+        top: 80px;
+        left: 690px;
+        letter-spacing: 3px;
+        line-height: 25px;
+        opacity: 0.2; 
+        padding-right: 20px;
+        width: 500px;
+}
+    .p1{
+        font-family: "georgia", serif;
+        font-weight: lighter;
+        font-size: 20px;
+        color: black;
+        position: absolute;
+        top: 300px;
+        left: 400px;
+        letter-spacing: 3px;
+        line-height: 25px;
+        opacity: 0.2; 
+        padding-right: 20px;
+    }
+    .p2{
+        font-family: "georgia", serif;
+        font-weight: lighter;
+        font-size: 20px;
+        color: black;
+        position: absolute;
+        top: 1100px;
+        left: 710px;
+        letter-spacing: 3px;
+        line-height: 25px;
+        opacity: 0.2; 
+        padding-right: 20px;
+        z-index: 5;
+    }
+    .p3{
+        font-family: "georgia", serif;
+        font-weight: lighter;
+        font-size: 20px;
+        color: black;
+        position: absolute;
+        top: 1940px;
+        left: 250px;
+        letter-spacing: 3px;
+        line-height: 25px;
+        opacity: 0.0; 
+        padding-right: 20px;
+        z-index: 5;
+    }
+
+
+    /* end text rules */
+    
+    /* image rules */
+    
+    .img1{
+        position: absolute;
+        top: 1400px;
+    }
+    
+    .img2{
+        position: absolute;
+        top: 700px;
+        left: 480px;
+    }
+    
+
+    /* various rotate and opcaity rules to be applied where needed */
+    
+        .rotate{
+        -webkit-transform: rotate(90deg);
+        font-family: "georgia", serif;
+        font-weight: bold;
+        font-size: 50px;
+        color: white;
+        position: absolute;
+        top: 45px;
+        left: 99px;
+        letter-spacing: 3px;
+        opacity: 0.2; 
+}
+        .rotate180{
+        -webkit-transform: rotate(180deg);
+        font-family: "georgia", serif;
+        font-weight: lighter;
+        font-size: 50px;
+        color: white;
+        position: absolute;
+        top: 45px;
+        left: 99px;
+        letter-spacing: 3px;
+        opacity: 0.2; 
+}
+    
+    .opacity{
+        opacity: 0.0;
+}
+    .opacity2{
+        opacity: 0.6;
+}
+    
+    .shift{
+        position: absolute;
+        top: -10px;
+}
+    
+ 
+</style>
+</head>
+
+</css>

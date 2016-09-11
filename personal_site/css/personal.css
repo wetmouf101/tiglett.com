@@ -1,0 +1,292 @@
+<style>
+/* General Rules */
+
+/* Box-sizing */
+, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+} 
+
+a {
+    color: black;
+
+}
+p1:hover {
+    font-family: 'nexa-heavy';
+    color: black;
+}
+p2:hover {
+    font-family: 'nexa-heavy';
+}
+
+.arrow{
+    height: 20px;
+    width: 20px;
+    align-content: center;
+    margin-left: 50%;
+    margin-right: 50%
+    
+}
+
+body {
+margin-right: 10px;
+background-color: #e4cfc1;
+}
+
+img:hover{
+    z-index: 10;
+
+}
+
+/* fonts */
+
+@font-face{
+  font-family:'nexa-book';
+  src: url('nexa-book.otf') format('opentype');
+}
+
+@font-face{
+  font-family:'nexa-heavy';
+  src: url('nexa-heavy.otf') format('opentype');
+}
+
+@font-face{
+  font-family:'nexa-heavy-italic';
+  src: url('nexa-hitalic.otf') format('opentype');
+}
+
+@font-face{
+  font-family:'nexa-book-italic';
+  src: url('nexa-litalic.otf') format('opentype');
+}
+
+#txt{
+    position: fixed;
+    top: 65px;
+    margin-left: 38%;
+    margin-right: 50%;
+    font-family: 'nexa-book', sans-serif;
+    font-size: 50pt;
+    letter-spacing: 2px;
+    z-index: -10;
+    opacity: 0.1;
+}
+
+.thick-l{
+    font-family: 'nexa-heavy', sans-serif;
+    letter-spacing: 2px;
+    font-size: 24pt;
+}
+.thin-l{
+    font-family: 'nexa-book', sans-serif;
+    font-size: 12pt;
+    letter-spacing: 2px;
+}
+
+.thick-r{
+    font-family: 'nexa-heavy', sans-serif;
+    letter-spacing: 2px;
+    font-size: 12pt;
+
+}
+.thin-r{
+    font-family: 'nexa-book', sans-serif;
+    font-size: 12pt;
+    letter-spacing: 2px;
+    text-decoration: underline;
+}
+.thick-c{
+    font-family: 'nexa-heavy', sans-serif;
+    letter-spacing: 2px;
+    font-size: 18pt;
+    text-align: center;
+    
+
+}
+.thin-c{
+    font-family: 'nexa-book', sans-serif;
+    font-size: 18pt;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.thin-c-i{
+    font-family: 'nexa-book-italic', sans-serif;
+    font-size: 18pt;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.thin-c-h{
+    font-family: 'nexa-book', sans-serif;
+    letter-spacing: 2px;
+    font-size: 12pt;
+    text-decoration: underline;
+    text-align: center;
+}
+
+
+/* end fonts */
+
+/* containers */ 
+
+.container{
+    width: 100%;
+    height: 100%;
+
+}
+
+.contain-name{
+    height: 100px;
+    width: 25%;
+    background-color: transparent;
+    margin-left: 50px;
+}
+
+.contain-right{
+    height: 100px;
+    width: 10%;
+    top: 9px;
+    right: 0px;
+    background-color: transparent;
+    position: fixed;
+    margin-right: 1%;
+    z-index: 11;
+    
+}
+.contain-scroll-1{
+    background-color: transparent;
+    height: 5px;
+    width: 100%;
+    align-content: center;
+    margin-bottom: 40px;
+
+}
+.contain-scroll{
+    background-color: transparent;
+    height: 5px;
+    width: 100%;
+    align-content: center;
+    margin-bottom: 100px;
+    -webkit-transform:
+        rotate(180deg);
+
+}
+#contain-p1{
+    position: relative;
+    background-color: transparent;
+    height: 890px;
+    width: 100%;
+    margin-left: 50px;
+    padding-top: 20px;
+    margin-bottom: 100px;
+
+}
+.contain-p2{
+    position: relative;
+    background-color: transparent;
+    height: 890px;
+    width: 100%;
+    margin-left: 50px;
+    padding-top: 20px;
+
+}
+
+.boxcontain{
+    position: absolute;
+    top: 900px;
+    height: 2%;
+    width: 100%;
+    margin-right: 15%;
+}
+
+/* image rules */
+
+.img-1{
+    position: absolute;
+    left: 130px;
+    top: 50px;
+    float: left;
+    margin-left: 5%;
+        
+
+}
+.img-2{
+    position: absolute;
+    left: 410px;
+    top: 110px;
+    float: left;
+    margin-left: 5%
+}
+.img-3{
+    position: absolute;
+    left: 600px;
+    top: 180px;
+    float: left;
+    margin-left: 5%
+}
+.img-4{
+    position: absolute;
+    left: 10px;
+    top: 280px;
+    float: left;
+    margin-left: 5%
+}
+.img-5{
+    position: absolute;
+    left: 480px;
+    top: 250px;
+    float: left;
+    margin-left: 5%
+}
+.img-6{
+    position: absolute;
+    left: 370px;
+    top: 380px;
+    float: left;
+    margin-left: 5%
+}
+
+/* little boxes */
+
+.box{
+    height: 15px;
+    width: 7px;
+    background-color: black;
+}
+
+.box-c{
+    height: 15px;
+    width: 7px;
+    background-color: black;
+    align-content: center;
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+.box-1{
+    position: absolute;
+    height: 15px;
+    width: 7px;
+    background-color: black;
+}
+
+.box-2{
+    position: absolute;
+    height: 15px;
+    width: 7px;
+    left: 108px;
+    background-color: black;
+}
+
+.box-3{
+    height: 15px;
+    width: 7px;
+    background-color: black;
+    margin-bottom: 40px;
+}
+
+
+
+</style>

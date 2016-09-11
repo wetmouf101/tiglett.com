@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+<title>Decontextualize</title>
+<head>
+
+<style>  
+ 
+    body {
+    background-image: url("img/wood.jpg");
+    z-index: -1;
+
+    </style>   
+
+<script src="https://use.typekit.net/uov0lsv.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+    
+<link rel="stylesheet", href="css/index.css">
+<script type="text/javascript">
+
+/*
+Drag and Drop Script: (c) Dynamic Drive (http://www.dynamicdrive.com)
+Please keep this notice intact
+*/
+
+var dragobject={
+z: 0, x: 0, y: 0, offsetx : null, offsety : null, targetobj : null, dragapproved : 0,
+initialize:function(){
+document.onmousedown=this.drag
+document.onmouseup=function(){this.dragapproved=0}
+},
+drag:function(e){
+var evtobj=window.event? window.event : e
+this.targetobj=window.event? event.srcElement : e.target
+if (this.targetobj.className=="drag"){
+this.dragapproved=1
+if (isNaN(parseInt(this.targetobj.style.left))){this.targetobj.style.left=0}
+if (isNaN(parseInt(this.targetobj.style.top))){this.targetobj.style.top=0}
+this.offsetx=parseInt(this.targetobj.style.left)
+this.offsety=parseInt(this.targetobj.style.top)
+this.x=evtobj.clientX
+this.y=evtobj.clientY
+if (evtobj.preventDefault)
+evtobj.preventDefault()
+document.onmousemove=dragobject.moveit
+}
+},
+moveit:function(e){
+var evtobj=window.event? window.event : e
+if (this.dragapproved==1){
+this.targetobj.style.left=this.offsetx+evtobj.clientX-this.x+"px"
+this.targetobj.style.top=this.offsety+evtobj.clientY-this.y+"px"
+return false
+}
+}
+}
+
+dragobject.initialize()
+
+</script>
+
+<meta name="tyler unger">
+</head>
+    
+<body>
+
+<h1 class="h1"><strong>1. Record a diary of your life<br />2. Cut up the diary<br />3. Click on and rearange the scraps into other stories<br />4. Cut yourself out of the story<br />
+5. Decontextualize</strong></h1>
+<div class="scrap-1"><img src="img/scrap-1.png", class="drag", height="80px", width="700px"></div>
+<div class="scrap-2"><img src="img/scrap-2.png", class="drag", height="80px", width="700px"></div>
+<div class="scrap-3"><img src="img/scrap-3.png", class="drag", height="80px", width="700px"></div>
+<div class="scrap-4"><img src="img/scrap-4.png", class="drag", height="80px", width="700px"></div>
+<div class="scrap-5"><img src="img/scrap-5.png", class="drag", height="80px", width="700px"></div>
+<div class="scrap-6"><img src="img/scrap-6.png", class="drag", height="80px", width="700px"></div>
+<div class="scrap-7"><img src="img/scrap-7.png", class="drag", height="80px", width="700px"></div>
+<div class="scrap-8"><img src="img/scrap-8.png", class="drag", height="80px", width="700px"></div>
+<div class="scrap-9"><img src="img/scrap-9.png", class="drag", height="80px", width="700px"></div>
+<div class="scrap-10"><img src="img/scrap-10.png", class="drag", height="80px", width="700px"></div>
+<div class="scrap-11"><img src="img/scrap-11.png", class="drag", height="80px", width="700px"></div>
+<div class="scrap-12"><img src="img/scrap-12.png", class="drag", height="80px", width="700px"></div>
+<div class="scrap-13"><img src="img/scrap-13.png", class="drag", height="80px", width="700px"></div>
+<div class="scrap-14"><img src="img/scrap-14.png", class="drag", height="80px", width="700px"></div>
+<div class="scrap-15"><img src="img/scrap-15.png", class="drag", height="80px", width="700px"></div>
+<div class="scrap-16"><img src="img/scrap-16.png", class="drag", height="80px", width="700px"></div>
+<div class="scrap-17"><img src="img/scrap-17.png", class="drag", height="80px", width="700px"></div>
+<div class="scrap-18"><img src="img/scrap-18.png", class="drag", height="80px", width="700px"></div>
+<div class="scrap-19"><img src="img/scrap-19.png", class="drag", height="80px", width="700px"></div>
+<div class="scrap-20"><img src="img/scrap-20.png", class="drag", height="80px", width="700px"></div>
+<div class="scrap-21"><img src="img/scrap-21.png", class="drag", height="80px", width="700px"></div>
+<div class="scrap-22"><img src="img/scrap-22.png", class="drag", height="80px", width="700px"></div>
+<div class="scrap-23"><img src="img/scrap-23.png", class="drag", height="80px", width="700px"></div>
+<div class="scrap-24"><img src="img/scrap-24.png", class="drag", height="80px", width="700px"></div>
+<div class="scrap-25"><img src="img/scrap-25.png", class="drag", height="80px", width="700px"></div>
+<div class="scrap-26"><img src="img/scrap-26.png", class="drag", height="80px", width="700px"></div>
+<div class="scrap-27"><img src="img/scrap-27.png", class="drag", height="80px", width="700px"></div>
+<div class="scrap-28"><img src="img/scrap-28.png", class="drag", height="80px", width="700px"></div>
+<div class="scrap-29"><img src="img/scrap-29.png", class="drag", height="80px", width="700px"></div>
+<div class="scrap-30"><img src="img/scrap-30.png", class="drag", height="80px", width="700px"></div>
+<div class="scrap-31"><img src="img/scrap-31.png", class="drag", height="80px", width="700px"></div>
+<div class="scrap-32"><img src="img/scrap-32.png", class="drag", height="80px", width="700px"></div>
+<div class="scrap-33"><img src="img/scrap-33.png", class="drag", height="80px", width="700px"></div>
+<div class="scrap-34"><img src="img/scrap-34.png", class="drag", height="80px", width="700px"></div>
+<div class="scrap-35"><img src="img/scrap-35.png", class="drag", height="80px", width="700px"></div>
+<div class="scrap-36"><img src="img/scrap-36.png", class="drag", height="80px", width="700px"></div>
+<div class="scrap-37"><img src="img/scrap-37.png", class="drag", height="80px", width="700px"></div>
+<div class="scrap-38"><img src="img/scrap-38.png", class="drag", height="80px", width="700px"></div>
+<div class="scrap-39"><img src="img/scrap-39.png", class="drag", height="80px", width="700px"></div>
+<div class="scrap-40"><img src="img/scrap-40.png", class="drag", height="80px", width="700px"></div>
+<div class="scrap-41"><img src="img/scrap-41.png", class="drag", height="80px", width="700px"></div>
+<div class="scrap-42"><img src="img/scrap-42.png", class="drag", height="80px", width="700px"></div>
+<div class="scrap-43"><img src="img/scrap-43.png", class="drag", height="80px", width="700px"></div>
+<div class="scrap-44"><img src="img/scrap-44.png", class="drag", height="80px", width="700px"></div>
+
+<form class="login">
+Join Us:<br>
+<input type="text" name="lastname" value="Password">
+<br><br>
+
+</form>
+<a href="pages/home.html"><img src="img/button.png", class="login2", height="100px", width="100px"></a>
+
+</body>
+
+</html>
